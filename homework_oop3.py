@@ -40,7 +40,7 @@ class Student:
 
         finished_courses = ', '.join(self.finished_courses)
 
-        res = f'Имя: {self.name}\nФамилия: {self.surname}\nСредняя оценка за лекции: {mean(score_total)} \
+        res = f'Имя: {self.name}\nФамилия: {self.surname}\nСредняя оценка за домашние задания: {mean(score_total)} \
         \nКурсы в процессе изучения: {courses}\nЗавершенные курсы: {finished_courses}'
         return res
         
